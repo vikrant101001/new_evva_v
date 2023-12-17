@@ -17,7 +17,7 @@ from langchain.llms import OpenAIChat
 from langchain.prompts import Prompt
 import time
 from flask_cors import CORS
-
+import traceback
 import re
 
 
